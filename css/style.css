@@ -1,6 +1,7 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* Variables */
 :root{
@@ -21,8 +22,9 @@ body {
 /* Typography */ 
 
 h1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+    color: #4133A9;
 }
 
 h2 {
@@ -142,9 +144,13 @@ a {
 }
 
 #bio {
-    background-image: url('../images/bio-bg.jpg');
+    background-image: url('../images/about-background.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+#bio p {
+    background-color: #eff0f1;
 }
 
 .caseStudy {
@@ -219,6 +225,11 @@ a {
     border-radius: 50%;
     background: lightgray 50% / cover no-repeat;
     position: center;
+}
+
+#imgCenter{
+    width:50%;
+    height:50%;
 }
 
 @keyframes spin {
