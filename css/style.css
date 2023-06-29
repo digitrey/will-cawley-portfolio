@@ -48,7 +48,7 @@ h5 {
 }
 
 p {
-    font-family: 'Inter regular', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
 
@@ -63,10 +63,14 @@ a {
 
 /* Logo */
 #logo {
-    position: fixed;
+    position: absolute;
     top: 24px;
     left: 40px;
-    font-size: 32px;
+}
+
+#logo img{
+    width: 30%;
+    height: auto;
 }
 
 /* Nav */
@@ -120,10 +124,17 @@ a {
     border-radius: 30px;
 }
 
-.section img:hover{
+.section img:hover {
     transition-duration: 500ms;
     /* transform: scale(1.1); */
     cursor: pointer;
+}
+
+#portfolio img {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #heroText {
@@ -144,14 +155,16 @@ a {
 }
 
 .btn {
-    color: navy;
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: rgb(251, 251, 251);
+    background: linear-gradient(to bottom, rgb(99, 147, 99) 0%, rgb(92, 177, 89) 100%);
     outline-color: black;
     outline: 20px;
     border-radius: 20px;
     box-shadow: 0px 10px hsla(194, 47%, 33%, 0.893);
-    font-family: 'Franklin Gothic Medium';
-    letter-spacing: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 12px;
+    float: right;
 }
 
 .examButn {
@@ -198,14 +211,6 @@ a {
     animation-name: spin;
     animation-duration: 10s;
     z-index: -1;
-}
-
-.col {
-    width: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
 }
 
 .imgChanged{
