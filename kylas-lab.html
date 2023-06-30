@@ -24,23 +24,27 @@
     </div>
     
     <!-- This is my nav -->
-    <ul id="nav">
-        <a href="#intro">
-            <li>Intro</li>
-        </a>
-        <a href="#research">
-            <li>Research</li>
-        </a>
-        <a href="#di">
-            <li>Ideation</li>
-        </a>
-        <a href="#fi">
-            <li>Final</li>
-        </a>
-        <a href="#ll">
-            <li>Lessons Learned</li>
-        </a>
-    </ul>
+    <div id="navTrigger" onclick="toggleNav()"></div>
+
+    <div id="navWrapper">
+        <ul id="nav">
+            <a href="#intro" onclick="toggleNav()">
+                <li>Intro</li>
+            </a>
+            <a href="#research" onclick="toggleNav()">
+                <li>Research</li>
+            </a>
+            <a href="#di" onclick="toggleNav()">
+                <li>Ideation</li>
+            </a>
+            <a href="#fi" onclick="toggleNav()">
+                <li>Final</li>
+            </a>
+            <a href="#ll" onclick="toggleNav()">
+                <li>Lessons Learned</li>
+            </a>
+        </ul>
+    </div>
 
 <!-- Hero Section -->
 <div class="section"> 
@@ -50,13 +54,9 @@
                 <img src=images/kyla-lab-thumb.png>
             </div>
             <div class="col s6 m6 l6">
-                <div id="heroText">
-                    <img id="imgCenter" src="../will-cawley-portfolio/images/kylaslab-pics/kyla-lab-logo.png">
-                    <h1 class="center-align">Collaborators</h1>
-                    <h2 class="center-align">Will Cawley, Project Manager</h2>
-                    <h2 class="center-align">Briceida Varela</h2>
-                    <h2 class="center-align">Dicla Bortolotti</h2>
-                </div>
+                <img id="imgCenter" class="center-align" src="../will-cawley-portfolio/images/kylaslab-pics/kyla-lab-logo.png">
+                <h2 class="left-align">Collaborators</h2>
+                <p class="left-align">Will Cawley, Project Manager<br>Briceida Varela<br>Dicla Bortolotti</p>
             </div>
         </div>
     </div>  

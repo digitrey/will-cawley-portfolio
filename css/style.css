@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color:grey;
+    background-color:rgb(231, 230, 230);
     color: black;
 }
 
@@ -60,7 +60,7 @@ li {
 }
 
 a {
-    color: aquamarine;
+    color: rgb(51, 79, 69);
 }
 
 /* Logo */
@@ -141,6 +141,10 @@ a {
 
 #heroText {
     margin-top: 40vh;
+}
+
+#portfolio {
+    background-color: #4997e4;
 }
 
 #bio {
@@ -228,8 +232,8 @@ a {
 }
 
 #imgCenter{
-    width:50%;
-    height:50%;
+    width:100%;
+    height:auto;
 }
 
 @keyframes spin {
