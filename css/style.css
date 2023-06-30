@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color:rgb(231, 230, 230);
+    background-color:#F4ECDD;
     color: black;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 #portfolio {
-    background-color: #4997e4;
+    background-color: white;
 }
 
 #bio {
@@ -155,7 +155,7 @@ a {
 }
 
 #bio p {
-    background-color: #eff0f1;
+    background-color: white
 }
 
 .caseStudy {
