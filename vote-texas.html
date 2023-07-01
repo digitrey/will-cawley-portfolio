@@ -16,78 +16,145 @@
 </head>
 
 <body>
-    <!--Logo-->
+<!--Logo-->
     <div id='logo'>
-        Will's House
+        <a href="index.html">
+            <img src="images/will-logo.png" />
+        </a>
     </div>
     
-    
     <!-- This is my nav -->
-    <ul id="nav">
-        <a href="#portfolio">
-            <li>Portfolio</li>
-        </a>
-        <a href="#bio">
-            <li>Bio</li>
-        </a>
-        <a href="#cv">
-            <li>CV</li>
-        </a>
-        <a href="#contact">
-            <li>Contact</li>
-        </a>
-    </ul>
+    <div id="navTrigger" onclick="toggleNav()"></div>
+
+    <div id="navWrapper">
+        <ul id="nav">
+            <a href="#intro" onclick="toggleNav()">
+                <li>Intro</li>
+            </a>
+            <a href="#research" onclick="toggleNav()">
+                <li>Research</li>
+            </a>
+            <a href="#di" onclick="toggleNav()">
+                <li>Ideation</li>
+            </a>
+            <a href="#fi" onclick="toggleNav()">
+                <li>Final</li>
+            </a>
+            <a href="#ll" onclick="toggleNav()">
+                <li>Lessons Learned</li>
+            </a>
+        </ul>
+    </div>
 
 <!-- Hero Section -->
 <div class="section">
     <div id="heroText">
-        <h1 class="center-align">Will Cawley</h1>
-        <h1 class="center-align">UX Researcher</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m6 l6">
+                    <img src=images/vote-texas-thumb.png>
+                </div>
+                <div class="col s6 m6 l6">
+                    <img id="imgCenter" class="center-align" src="../will-cawley-portfolio/images/votetexas-pics/votetexas.png">
+                    <h2 class="left-align">UX Designer</h2>
+                    <p class="left-align">Will Cawley</p>
+                </div>
+            </div>
+        </div>  
     </div>
 </div>
 
-<!-- Portfolio Section -->
-<div id="portfolio" class="section">
-    <h2 class="center-align">Portfolio</h2>
+<!-- Introduction Section -->
+<div id="intro" class="section">
     <div class="container">
         <div class="row">
-            <div class="col s12 m6 l6">
-                <a href='project1.html'>
-                    <img src="images/project-preview.jpg"/>
-                </a>
-            </div>
-            <div class="col s12 m6 l6">
-                <h3>Project Title</h3>
-                <p>Description of Project</p>
+            <div class="col s12 m12 l12">
+                <h2 class="left-align">Introduction</h2>
+                <p>This redesign focused on enabling Texas voters to easily access state level resources to help them vote in general, midterm, and off cycle elections.</p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col s12 m6 l6">
-                <h3>Project Title</h3>
-                <p>Description of Project</p>
+                <h3 class="left-align">Website</h3>
+                <p>VoteTexas.gov is a website that helps Texans exercise their right to vote. It is run by the Office of The Secretary of State, who manages elections and voting in Texas.</p>
+                <p>VoteTexas helps users check their registration status, learn how to register, and know what they need to do on election day.</p>
             </div>
             <div class="col s12 m6 l6">
-                <img src="images/project-preview.jpg"/>
+                <img src="../will-cawley-portfolio/images/kylaslab-pics/kyla-wares.png">
             </div>
         </div>
     </div>
 </div>
 
-<!-- Bio Section -->
-<div id="bio" class="section">
+<!-- User Research Section -->
+<div id="research" class="section">
     <div class="container">
         <div class="row">
+            <div class="col s12 m12 l12">
+                <h2 class="left-align">User Research</h2>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="examCard">
+                    <img src="images/votetexas-pics/sandi-profile.png"/>
+                    <h4 class="center-align">Sandi</h4>
+                    <ul>
+                        <li>&bull; Female</li>
+                        <li>&bull; Early-20s</li>
+                        <li>&bull; Infrequent voter</li>
+                    </ul>
+                    <p class="left-align">"I'll vote in main elections, but I've never been on a voting website."</p>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="examCard">
+                    <img src="images/votetexas-pics/koehl-profile.png"/>
+                    <h4 class="center-align">Koehl</h4>
+                    <ul>
+                        <li>&bull; Male</li>
+                        <li>&bull; Late-30s</li>
+                        <li>&bull; Frequent voter</li>
+                    </ul>
+                    <p class="left-align">“I try to vote. Feels like its my civic duty to go out there and say my piece.”</p>
+                </div>
+            </div>
+            <div class="col s12 m12 l4">
+                <div class="examCard">
+                    <img src="images/votetexas-pics/daniel-profile.png"/>
+                    <h4 class="center-align">Daniel</h4>
+                    <ul>
+                        <li>&bull; Male</li>
+                        <li>&bull; Mid-30s</li>
+                        <li>&bull; Frequent voter</li>
+                    </ul>
+                    <p class="left-align">“I vote in every election - from the local to all the way up.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Design and Ideation Section -->
+<div id="di" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h2 class="left-align">Design and Ideation</h2>
+            </div>
             <div class="col s12 m6 l6">
                 
-                <h2 class="left-align">Bio</h2>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <p>This is authentic auto-biography sharing who I am, my background, what I'm passionate about, and my strengths as a designer. I might even share a bit of my philosophy!</p>
-
-                <p>This is authentic auto-biography sharing who I am, my background, what I'm passionate about, and my strengths as a designer. I might even share a bit of my philosophy!</p>
-
-                <p>This is authentic auto-biography sharing who I am, my background, what I'm passionate about, and my strengths as a designer. I might even share a bit of my philosophy!</p>
+<!-- The Final Product Section -->
+<div id="fi" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h2 class="left-align">Final Product</h2>
             </div>
             <div class="col s12 m6 l6">
                 
@@ -96,48 +163,22 @@
     </div>
 </div>
 
-<!-- CV Section -->
-<div id="cv" class="section">
-    <h2 class="center-align">CV</h2>
-</div>
-
-<!-- Contact Section -->
-<div id="contact" class="section">
-    <h2 class="center-align">Contact</h2>
-</div>
-
-
-<!-- Class Stuff -->
-<div class="section">
+<!-- Lessons Learned Section -->
+<div id="ll" class="section">
     <div class="container">
-        <h2 class="center-align">This is an H2</h2>
         <div class="row">
-            <div class="col s12 m6 l3">
-                <img src=images/contact.jpg>
-                <h3>This is an H3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis nisl pretium, finibus est non, malesuada dolor. Morbi lectus enim, euismod vel dolor in, venenatis faucibus orci. Morbi porttitor euismod consectetur. Donec elit augue, finibus sed auctor id, elementum ac massa.</p>
+            <div class="col s12 m6 l6">
+                <h2 class="left-align">Lessons Learned</h2>
             </div>
-            <div class="col s12 m6 l3">
-                <img src=images/contact.jpg>
-                <h3>This is an H3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis nisl pretium, finibus est non, malesuada dolor. Morbi lectus enim, euismod vel dolor in, venenatis faucibus orci. Morbi porttitor euismod consectetur. Donec elit augue, finibus sed auctor id, elementum ac massa.</p>
+            <div class="col s12 m6 l6">
+                
             </div>
-            <div class="col s12 m6 l3">
-                <img src=images/contact.jpg>
-                <h3>This is an H3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis nisl pretium, finibus est non, malesuada dolor. Morbi lectus enim, euismod vel dolor in, venenatis faucibus orci. Morbi porttitor euismod consectetur. Donec elit augue, finibus sed auctor id, elementum ac massa.</p>
-            </div>
-            <div class="col s12 m6 l3">
-                <img src=images/contact.jpg>
-                <h3>This is an H3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis nisl pretium, finibus est non, malesuada dolor. Morbi lectus enim, euismod vel dolor in, venenatis faucibus orci. Morbi porttitor euismod consectetur. Donec elit augue, finibus sed auctor id, elementum ac massa.</p>
-            </div>
-         </div>
-     </div>
- </div>
+        </div>
+    </div>
+</div>
 
-
-    <!-- This is where I load the Javascript -->
+<!-- This is where I load the Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>  
 
