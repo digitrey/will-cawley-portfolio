@@ -124,7 +124,6 @@ a {
 
 .section img {
     width: 100%;
-    border-radius: 30px;
 }
 
 .section img:hover {
@@ -156,6 +155,12 @@ a {
 
 #bio p {
     background-color: white
+}
+
+#fi video{
+    width: auto;
+    height: 250px;
+    object-fit: contain;
 }
 
 .caseStudy {
