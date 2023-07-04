@@ -149,7 +149,7 @@ a {
 }
 
 #bio {
-    background-image: url('../images/about-background.jpg');
+    background-image: url('../images/index-pics/about-background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -212,7 +212,7 @@ a {
 }
 
 .gimmick {
-    background-image: url('../images/gear-banner.svg');
+    background-image: url('../images/index-pics/gear-banner.svg');
     background-size: cover;
     position: absolute;
     height: 500px;
