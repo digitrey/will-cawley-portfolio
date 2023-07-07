@@ -117,6 +117,13 @@ a {
     cursor: pointer;
 }
 
+/* Video Responsiveness */
+.video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+}
+
 /* Page Layout */
 .section {
     min-height: 100vh;
