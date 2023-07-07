@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var options;
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(modals, options);
+    var materialboxes = document.querySelectorAll('.materialboxed');
+    var initMaterialBoxes = M.Materialbox.init(materialboxes, options);
     
     //Initializing modals
     var modalOptions = {
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         preventScrolling: false
     };
     var modals = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(modals, modalOptions);
+    var initModals = M.Modal.init(modals, modalOptions);
 });
 
 //Integer

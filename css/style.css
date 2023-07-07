@@ -118,10 +118,11 @@ a {
 }
 
 /* Video Responsiveness */
-.video {
+video {
     /* override other styles to make responsive */
     width: 100%    !important;
     height: auto   !important;
+    object-fit: contain;
 }
 
 /* Page Layout */
@@ -162,12 +163,6 @@ a {
 
 #bio p {
     background-color: white
-}
-
-#fi video{
-    width: auto;
-    height: 250px;
-    object-fit: contain;
 }
 
 .caseStudy {
