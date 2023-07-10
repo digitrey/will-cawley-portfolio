@@ -91,10 +91,9 @@ a {
 }
 
 #nav li:hover{
-    color: aquamarine;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid green;
     transition-duration: var(--transit);
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     cursor: pointer;
 }
 
