@@ -1,2 +1,2 @@
-# portfolio-demo
- A demo of HTML/CSS anc creating a portfolio from scratch
+# Will Cawley UX Portfolio
+ The HTML/CSS/JScript code for Will's online UX Portfolio.
